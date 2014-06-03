@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="eddenModelStoreContainer" CdmEntityContainer="eddenEntities">
+    <EntitySetMapping Name="accountcommunities">
+      <EntityTypeMapping TypeName="eddenModel.accountcommunities">
+        <MappingFragment StoreEntitySet="accountcommunities">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Identity" ColumnName="Identity" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="accountlevels">
+      <EntityTypeMapping TypeName="eddenModel.accountlevels">
+        <MappingFragment StoreEntitySet="accountlevels">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Identity" ColumnName="Identity" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="accountprofiles">
+      <EntityTypeMapping TypeName="eddenModel.accountprofiles">
+        <MappingFragment StoreEntitySet="accountprofiles">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Pseudo" ColumnName="Pseudo" />
+          <ScalarProperty Name="SecretAnswer" ColumnName="SecretAnswer" />
+          <ScalarProperty Name="SecretQuestion" ColumnName="SecretQuestion" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="accounts">
+      <EntityTypeMapping TypeName="eddenModel.accounts">
+        <MappingFragment StoreEntitySet="accounts">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Username" ColumnName="Username" />
+          <ScalarProperty Name="Password" ColumnName="Password" />
+          <ScalarProperty Name="Salt" ColumnName="Salt" />
+          <ScalarProperty Name="Community_Id" ColumnName="Community_Id" />
+          <ScalarProperty Name="Level_Id" ColumnName="Level_Id" />
+          <ScalarProperty Name="Profile_Id" ColumnName="Profile_Id" />
+          <ScalarProperty Name="State_Id" ColumnName="State_Id" />
+          <ScalarProperty Name="Trace_Id" ColumnName="Trace_Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="accountstates">
+      <EntityTypeMapping TypeName="eddenModel.accountstates">
+        <MappingFragment StoreEntitySet="accountstates">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="BannedAt" ColumnName="BannedAt" />
+          <ScalarProperty Name="SubscribedAt" ColumnName="SubscribedAt" />
+          <ScalarProperty Name="Identity" ColumnName="Identity" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="accounttraces">
+      <EntityTypeMapping TypeName="eddenModel.accounttraces">
+        <MappingFragment StoreEntitySet="accounttraces">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="LastConnectionDate" ColumnName="LastConnectionDate" />
+          <ScalarProperty Name="LastConnectionHost" ColumnName="LastConnectionHost" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="servers">
+      <EntityTypeMapping TypeName="eddenModel.servers">
+        <MappingFragment StoreEntitySet="servers">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Identity" ColumnName="Identity" />
+          <ScalarProperty Name="Password" ColumnName="Password" />
+          <ScalarProperty Name="Salt" ColumnName="Salt" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

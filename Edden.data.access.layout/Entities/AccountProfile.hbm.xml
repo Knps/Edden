@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2"
+
+namespace="Edden.data.access.layout.Entities" assembly="Edden.data.access.layout">
+
+  <class name="AccountProfileEntity" table="account_profiles">
+
+    <id name="Id" column="id" unsaved-value="0">
+
+      <generator class="native" />
+
+    </id>
+
+    <property name="Pseudo" column="pseudo"/>
+    <property name="SecretAnswer" column="secret_answer"/>
+    <property name="SecretQuestion" column="secret_question"/>
+    <one-to-one name="Account" class="AccountEntity" property-ref="Profile" />
+
+  </class>
+
+</hibernate-mapping>

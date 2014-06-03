@@ -1,0 +1,5 @@
+C:\Users\Snaps\Desktop\Edden Project\Edden\EddenTool.core\bin\Debug\EddenTool.core.dll
+C:\Users\Snaps\Desktop\Edden Project\Edden\EddenTool.core\bin\Debug\EddenTool.core.pdb
+C:\Users\Snaps\Desktop\Edden Project\Edden\EddenTool.core\obj\Debug\EddenTool.core.csprojResolveAssemblyReference.cache
+C:\Users\Snaps\Desktop\Edden Project\Edden\EddenTool.core\obj\Debug\EddenTool.core.dll
+C:\Users\Snaps\Desktop\Edden Project\Edden\EddenTool.core\obj\Debug\EddenTool.core.pdb

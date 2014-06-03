@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="EddenModelStoreContainer" CdmEntityContainer="EddenModelContainer">
+    <EntitySetMapping Name="Accounts">
+      <EntityTypeMapping TypeName="IsTypeOf(EddenModel.Account)">
+        <MappingFragment StoreEntitySet="Accounts">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Username" ColumnName="Username" />
+          <ScalarProperty Name="Password" ColumnName="Password" />
+          <ScalarProperty Name="Salt" ColumnName="Salt" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="AccountLevels">
+      <EntityTypeMapping TypeName="IsTypeOf(EddenModel.AccountLevel)">
+        <MappingFragment StoreEntitySet="AccountLevels">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Identity" ColumnName="Identity" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="AccountCommunities">
+      <EntityTypeMapping TypeName="IsTypeOf(EddenModel.AccountCommunity)">
+        <MappingFragment StoreEntitySet="AccountCommunities">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Identity" ColumnName="Identity" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <AssociationSetMapping Name="AccountAccountCommunity" TypeName="EddenModel.AccountAccountCommunity" StoreEntitySet="Accounts">
+      <EndProperty Name="AccountCommunity">
+        <ScalarProperty Name="Id" ColumnName="Community_Id" />
+      </EndProperty>
+      <EndProperty Name="Account">
+        <ScalarProperty Name="Id" ColumnName="Id" />
+      </EndProperty>
+    </AssociationSetMapping>
+    <AssociationSetMapping Name="AccountAccountLevel" TypeName="EddenModel.AccountAccountLevel" StoreEntitySet="Accounts">
+      <EndProperty Name="AccountLevel">
+        <ScalarProperty Name="Id" ColumnName="Level_Id" />
+      </EndProperty>
+      <EndProperty Name="Account">
+        <ScalarProperty Name="Id" ColumnName="Id" />
+      </EndProperty>
+    </AssociationSetMapping>
+  </EntityContainerMapping>
+</Mapping>

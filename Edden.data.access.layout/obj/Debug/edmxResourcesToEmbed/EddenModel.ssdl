@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="EddenModel.Store" Alias="Self" Provider="MySql.Data.MySqlClient" ProviderManifestToken="5.6" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityContainer Name="EddenModelStoreContainer">
+    <EntitySet Name="Accounts" EntityType="EddenModel.Store.Accounts" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="AccountLevels" EntityType="EddenModel.Store.AccountLevels" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="AccountCommunities" EntityType="EddenModel.Store.AccountCommunities" store:Type="Tables" Schema="dbo" />
+    <AssociationSet Name="AccountAccountCommunity" Association="EddenModel.Store.AccountAccountCommunity">
+      <End Role="Account" EntitySet="Accounts" />
+      <End Role="AccountCommunity" EntitySet="AccountCommunities" />
+    </AssociationSet>
+    <AssociationSet Name="AccountAccountLevel" Association="EddenModel.Store.AccountAccountLevel">
+      <End Role="Account" EntitySet="Accounts" />
+      <End Role="AccountLevel" EntitySet="AccountLevels" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="Accounts">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Username" Type="longtext" Nullable="false" />
+    <Property Name="Password" Type="longtext" Nullable="false" />
+    <Property Name="Salt" Type="longtext" Nullable="false" />
+    <Property Name="Community_Id" Type="int" Nullable="false" />
+    <Property Name="Level_Id" Type="int" Nullable="false" />
+    <Property Name="Profile_Id" Type="int" Nullable="false" />
+    <Property Name="State_Id" Type="int" Nullable="false" />
+    <Property Name="Trace_Id" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="AccountLevels">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Identity" Type="int" Nullable="false" />
+    <Property Name="Name" Type="longtext" Nullable="false" />
+  </EntityType>
+  <EntityType Name="AccountCommunities">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Identity" Type="int" Nullable="false" />
+    <Property Name="Name" Type="longtext" Nullable="false" />
+  </EntityType>
+  <Association Name="AccountAccountCommunity">
+    <End Role="Account" Type="EddenModel.Store.Accounts" Multiplicity="*" />
+    <End Role="AccountCommunity" Type="EddenModel.Store.AccountCommunities" Multiplicity="1" />
+    <ReferentialConstraint>
+      <Principal Role="AccountCommunity">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Account">
+        <PropertyRef Name="Community_Id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="AccountAccountLevel">
+    <End Role="Account" Type="EddenModel.Store.Accounts" Multiplicity="*" />
+    <End Role="AccountLevel" Type="EddenModel.Store.AccountLevels" Multiplicity="1" />
+    <ReferentialConstraint>
+      <Principal Role="AccountLevel">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Account">
+        <PropertyRef Name="Level_Id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema>

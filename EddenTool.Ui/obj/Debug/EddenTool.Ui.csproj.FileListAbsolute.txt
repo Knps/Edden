@@ -1,0 +1,13 @@
+C:\Users\Snaps\Dropbox\Project\Edden\EddenTool.Ui\bin\Debug\EddenTool.Ui.exe.config
+C:\Users\Snaps\Dropbox\Project\Edden\EddenTool.Ui\bin\Debug\EddenTool.Ui.exe
+C:\Users\Snaps\Dropbox\Project\Edden\EddenTool.Ui\bin\Debug\EddenTool.Ui.pdb
+C:\Users\Snaps\Dropbox\Project\Edden\EddenTool.Ui\obj\Debug\EddenTool.Ui.csprojResolveAssemblyReference.cache
+C:\Users\Snaps\Dropbox\Project\Edden\EddenTool.Ui\obj\Debug\MainWindow.baml
+C:\Users\Snaps\Dropbox\Project\Edden\EddenTool.Ui\obj\Debug\MainWindow.g.cs
+C:\Users\Snaps\Dropbox\Project\Edden\EddenTool.Ui\obj\Debug\App.g.cs
+C:\Users\Snaps\Dropbox\Project\Edden\EddenTool.Ui\obj\Debug\EddenTool.Ui_MarkupCompile.cache
+C:\Users\Snaps\Dropbox\Project\Edden\EddenTool.Ui\obj\Debug\EddenTool.Ui.g.resources
+C:\Users\Snaps\Dropbox\Project\Edden\EddenTool.Ui\obj\Debug\EddenTool.Ui.Properties.Resources.resources
+C:\Users\Snaps\Dropbox\Project\Edden\EddenTool.Ui\obj\Debug\EddenTool.Ui.csproj.GenerateResource.Cache
+C:\Users\Snaps\Dropbox\Project\Edden\EddenTool.Ui\obj\Debug\EddenTool.Ui.exe
+C:\Users\Snaps\Dropbox\Project\Edden\EddenTool.Ui\obj\Debug\EddenTool.Ui.pdb

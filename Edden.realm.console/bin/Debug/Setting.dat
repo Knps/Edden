@@ -1,0 +1,14 @@
+%YAML 1.2
+---
+!Edden.realm.RealmSetting
+Main: 
+  Blacklog: 200
+Database: 
+  Username: root
+  Password: ""
+  Name: edden
+  Host: 127.0.0.1
+Port: 
+  Player: 543
+  Game: 544
+...

@@ -1,0 +1,22 @@
+C:\Users\Snaps\Desktop\Edden Project\Edden\Edden.core\obj\Debug\Edden.core.csprojResolveAssemblyReference.cache
+C:\Users\Snaps\Desktop\Edden Project\Edden\Edden.core\bin\Debug\Edden.core.dll
+C:\Users\Snaps\Desktop\Edden Project\Edden\Edden.core\bin\Debug\Edden.core.pdb
+C:\Users\Snaps\Desktop\Edden Project\Edden\Edden.core\obj\Debug\Edden.core.dll
+C:\Users\Snaps\Desktop\Edden Project\Edden\Edden.core\obj\Debug\Edden.core.pdb
+C:\Users\Snaps\Desktop\Edden Project\Edden\Edden.core\bin\Debug\YamlSerializer.dll
+C:\Users\Snaps\Dropbox\Project\Edden\Edden.core\bin\Debug\Edden.core.dll
+C:\Users\Snaps\Dropbox\Project\Edden\Edden.core\bin\Debug\Edden.core.pdb
+C:\Users\Snaps\Dropbox\Project\Edden\Edden.core\bin\Debug\YamlSerializer.dll
+C:\Users\Snaps\Dropbox\Project\Edden\Edden.core\obj\Debug\Edden.core.csprojResolveAssemblyReference.cache
+C:\Users\Snaps\Dropbox\Project\Edden\Edden.core\obj\Debug\Edden.core.dll
+C:\Users\Snaps\Dropbox\Project\Edden\Edden.core\obj\Debug\Edden.core.pdb
+C:\Users\Snaps\Dropbox\Project\Edden\Edden.core\bin\Debug\TxSocket.pdb
+C:\Users\Snaps\Dropbox\Project\Edden\Edden.core\bin\Debug\SuperSocket.Common.dll
+C:\Users\Snaps\Dropbox\Project\Edden\Edden.core\bin\Debug\log4net.dll
+C:\Users\Snaps\Dropbox\Project\Edden\Edden.core\bin\Debug\SuperSocket.SocketBase.pdb
+C:\Users\Snaps\Dropbox\Project\Edden\Edden.core\bin\Debug\SuperSocket.SocketBase.xml
+C:\Users\Snaps\Dropbox\Project\Edden\Edden.core\bin\Debug\SuperSocket.Common.pdb
+C:\Users\Snaps\Dropbox\Project\Edden\Edden.core\bin\Debug\SuperSocket.Common.xml
+C:\Users\Snaps\Dropbox\Project\Edden\Edden.core\bin\Debug\KnpsToolkit.dll
+C:\Users\Snaps\Dropbox\Project\Edden\Edden.core\bin\Debug\KnpsToolkit.pdb
+C:\Users\Snaps\Dropbox\Project\Edden\Edden.core\bin\Debug\Newtonsoft.Json.dll

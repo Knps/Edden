@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2"
+
+namespace="Edden.data.access.layout.Entities" assembly="Edden.data.access.layout">
+
+  <class name="AccountLevelEntity" table="account_levels">
+
+    <id name="Id" column="id" unsaved-value="0">
+
+      <generator class="native" />
+
+    </id>
+
+    <property name="Identity" column="identity"/>
+    <property name="Name" column="name"/>
+    <bag name="Accounts" cascade="none" inverse="true">
+      <key column="level_id" />
+      <one-to-many class="AccountEntity" />
+    </bag>
+
+  </class>
+
+</hibernate-mapping>

@@ -1,0 +1,68 @@
+﻿2014-05-02 16:11:06,023 [5468] INFO  GameServer-54284939 - The server instance GameServer-54284939 has been started!
+2014-05-02 16:56:43,366 [7412] INFO  GameServer-199777 - The server instance GameServer-199777 has been started!
+2014-05-02 16:57:12,089 [8700] INFO  GameServer-199777 - Session: 8aafad7e-fbd8-4b3e-aec5-5baaf6277919/127.0.0.1:16061
+This session was closed for ApplicationError!
+2014-05-02 16:57:53,964 [8996] INFO  GameServer-199777 - Session: 36fc0ab6-9ff5-4242-a1ff-ffa737124516/127.0.0.1:16069
+This session was closed for ApplicationError!
+2014-05-02 16:58:24,201 [8996] INFO  GameServer-199777 - Session: e524f10d-4eaf-4206-8c2e-7eed94d4e76b/127.0.0.1:16072
+This session was closed for ApplicationError!
+2014-05-02 16:58:40,139 [8700] INFO  GameServer-199777 - Session: 651475b5-4cd3-40eb-9e12-8fa0e8228e34/127.0.0.1:16075
+This session was closed for ApplicationError!
+2014-05-02 16:59:18,366 [8996] INFO  GameServer-199777 - Session: 52eae085-329e-41c9-9d6b-96bc2d986e0c/127.0.0.1:16080
+This session was closed for ApplicationError!
+2014-05-02 17:00:07,170 [8020] INFO  GameServer-54284939 - The server instance GameServer-54284939 has been started!
+2014-05-02 17:00:30,819 [9336] INFO  GameServer-54284939 - Session: 5e36b6ba-77cc-46df-a3b5-b706fdbdfe05/127.0.0.1:16106
+This session was closed for ApplicationError!
+2014-05-02 17:01:09,727 [8708] INFO  GameServer-54284939 - The server instance GameServer-54284939 has been started!
+2014-05-02 17:02:37,058 [7724] INFO  GameServer-54284939 - The server instance GameServer-54284939 has been started!
+2014-05-02 17:03:34,232 [9756] INFO  GameServer-54284939 - The server instance GameServer-54284939 has been started!
+2014-05-02 17:04:18,125 [7148] INFO  GameServer-54284939 - The server instance GameServer-54284939 has been started!
+2014-05-02 17:04:50,576 [8356] INFO  GameServer-54284939 - The server instance GameServer-54284939 has been started!
+2014-05-02 17:04:55,600 [2108] INFO  GameServer-54284939 - Session: 53fcd350-5b8d-4fae-b02a-718e9647a234/127.0.0.1:16224
+This session was closed for ApplicationError!
+2014-05-02 17:05:14,637 [6896] INFO  GameServer-54284939 - The server instance GameServer-54284939 has been started!
+2014-05-02 17:05:59,417 [6716] INFO  GameServer-54284939 - The server instance GameServer-54284939 has been started!
+2014-05-02 17:06:23,744 [2520] INFO  GameServer-54284939 - The server instance GameServer-54284939 has been started!
+2014-05-02 17:06:28,321 [6140] INFO  GameServer-54284939 - Session: bfa68e31-9c0d-45b5-9a4a-c1e8830a914b/127.0.0.1:16268
+This session was closed for ApplicationError!
+2014-05-02 17:10:19,547 [656] INFO  GameServer-54284939 - The server instance GameServer-54284939 has been started!
+2014-05-02 19:57:56,693 [6464] INFO  GameServer-29887598 - The server instance GameServer-29887598 has been started!
+2014-05-02 19:59:49,460 [6784] INFO  GameServer-199777 - The server instance GameServer-199777 has been started!
+2014-05-02 20:00:59,813 [4964] INFO  GameServer-54284939 - The server instance GameServer-54284939 has been started!
+2014-05-02 20:02:27,175 [9412] INFO  GameServer-54284939 - The server instance GameServer-54284939 has been started!
+2014-05-02 20:03:19,107 [6480] INFO  GameServer-54284939 - The server instance GameServer-54284939 has been started!
+2014-05-02 20:17:34,108 [8280] INFO  GameServer-54284939 - The server instance GameServer-54284939 has been started!
+2014-05-02 23:32:28,683 [8700] INFO  GameServer-199777 - The server instance GameServer-199777 has been started!
+2014-05-02 23:32:28,704 [8700] INFO  PlayerServer-2399524 - The server instance PlayerServer-2399524 has been started!
+2014-05-02 23:40:26,640 [9840] INFO  GameServer-199777 - The server instance GameServer-199777 has been started!
+2014-05-02 23:40:26,687 [9840] INFO  PlayerServer-2399524 - The server instance PlayerServer-2399524 has been started!
+2014-05-02 23:43:28,109 [8064] INFO  GameServer-54284939 - The server instance GameServer-54284939 has been started!
+2014-05-02 23:43:28,172 [8064] INFO  PlayerServer-13452656 - The server instance PlayerServer-13452656 has been started!
+2014-05-02 23:44:01,249 [6628] INFO  GameServer-199777 - The server instance GameServer-199777 has been started!
+2014-05-02 23:44:01,274 [6628] INFO  PlayerServer-2399524 - The server instance PlayerServer-2399524 has been started!
+2014-05-02 23:46:49,755 [3140] INFO  GameServer-54284939 - The server instance GameServer-54284939 has been started!
+2014-05-02 23:46:49,777 [3140] INFO  PlayerServer-13452656 - The server instance PlayerServer-13452656 has been started!
+2014-05-02 23:47:13,047 [3480] INFO  GameServer-54284939 - The server instance GameServer-54284939 has been started!
+2014-05-02 23:47:13,070 [3480] INFO  PlayerServer-13452656 - The server instance PlayerServer-13452656 has been started!
+2014-05-02 23:48:14,592 [224] INFO  GameServer-54284939 - The server instance GameServer-54284939 has been started!
+2014-05-02 23:48:14,618 [224] INFO  PlayerServer-13452656 - The server instance PlayerServer-13452656 has been started!
+2014-05-03 00:02:44,315 [7160] INFO  GameServer-54284939 - The server instance GameServer-54284939 has been started!
+2014-05-03 00:02:44,338 [7160] INFO  PlayerServer-13452656 - The server instance PlayerServer-13452656 has been started!
+2014-05-03 00:03:36,809 [6584] INFO  GameServer-199777 - The server instance GameServer-199777 has been started!
+2014-05-03 00:03:36,831 [6584] INFO  PlayerServer-2399524 - The server instance PlayerServer-2399524 has been started!
+2014-05-03 00:08:15,351 [6172] INFO  GameServer-54284939 - The server instance GameServer-54284939 has been started!
+2014-05-03 00:08:15,376 [6172] INFO  PlayerServer-13452656 - The server instance PlayerServer-13452656 has been started!
+2014-05-03 00:08:28,261 [8020] INFO  GameServer-54284939 - The server instance GameServer-54284939 has been started!
+2014-05-03 00:08:28,283 [8020] INFO  PlayerServer-13452656 - The server instance PlayerServer-13452656 has been started!
+2014-05-03 00:10:36,346 [5244] INFO  GameServer-54284939 - The server instance GameServer-54284939 has been started!
+2014-05-03 00:10:36,370 [5244] INFO  PlayerServer-13452656 - The server instance PlayerServer-13452656 has been started!
+2014-05-03 00:10:46,090 [2772] INFO  GameServer-54284939 - The server instance GameServer-54284939 has been started!
+2014-05-03 00:10:46,113 [2772] INFO  PlayerServer-13452656 - The server instance PlayerServer-13452656 has been started!
+2014-05-03 16:02:33,066 [3428] INFO  GameServer-54284939 - The server instance GameServer-54284939 has been started!
+2014-05-03 16:02:33,331 [3428] INFO  PlayerServer-13452656 - The server instance PlayerServer-13452656 has been started!
+2014-05-03 16:03:39,174 [4380] INFO  GameServer-54284939 - The server instance GameServer-54284939 has been started!
+2014-05-03 16:03:39,197 [4380] INFO  PlayerServer-13452656 - The server instance PlayerServer-13452656 has been started!
+2014-05-03 16:03:51,068 [9896] INFO  GameServer-54284939 - The server instance GameServer-54284939 has been started!
+2014-05-03 16:03:51,090 [9896] INFO  PlayerServer-13452656 - The server instance PlayerServer-13452656 has been started!
+2014-05-03 16:04:15,104 [9080] INFO  GameServer-54284939 - The server instance GameServer-54284939 has been started!
+2014-05-03 16:04:15,127 [9080] INFO  PlayerServer-13452656 - The server instance PlayerServer-13452656 has been started!

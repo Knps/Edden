@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2"
+
+namespace="Edden.data.access.layout.Entities" assembly="Edden.data.access.layout">
+
+  <class name="AccountStateEntity" table="account_states">
+
+    <id name="Id" column="id" unsaved-value="0">
+
+      <generator class="native" />
+
+    </id>
+
+    <property name="Identity" column="identity"/>
+    <property name="BannedAt" column="banned_at"/>
+    <property name="SubscribedAt" column="subscribed_at"/>
+    <one-to-one name="Account" class="AccountEntity" property-ref="State" />
+
+  </class>
+
+</hibernate-mapping>

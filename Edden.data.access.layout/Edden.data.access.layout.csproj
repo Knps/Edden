@@ -1,0 +1,101 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{1F62C479-D321-4432-87E4-30CF94F87FE8}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Edden.data.access.layout</RootNamespace>
+    <AssemblyName>Edden.data.access.layout</AssemblyName>
+    <TargetFrameworkVersion>v4.5.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Iesi.Collections">
+      <HintPath>..\..\..\..\Desktop\C# Lib\NHibernate 3.3\Required_Bins\Iesi.Collections.dll</HintPath>
+    </Reference>
+    <Reference Include="KnpsToolkit">
+      <HintPath>..\..\KnpsToolkit\KnpsToolkit\bin\Debug\KnpsToolkit.dll</HintPath>
+    </Reference>
+    <Reference Include="NHibernate">
+      <HintPath>..\..\..\..\Desktop\C# Lib\NHibernate 3.3\Required_Bins\NHibernate.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.Entity" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="DataAccessObject.cs" />
+    <Compile Include="Entities\AccountCommunityEntity.cs" />
+    <Compile Include="Entities\AccountEntity.cs" />
+    <Compile Include="Entities\AccountLevelEntity.cs" />
+    <Compile Include="Entities\AccountProfileEntity.cs" />
+    <Compile Include="Entities\AccountStateEntity.cs" />
+    <Compile Include="Entities\AccountTraceEntity.cs" />
+    <Compile Include="Entities\ServerEntity.cs" />
+    <Compile Include="Managers\AccountCommunityManager.cs" />
+    <Compile Include="Managers\AccountLevelManager.cs" />
+    <Compile Include="Managers\AccountManager.cs" />
+    <Compile Include="Managers\BaseManager.cs" />
+    <Compile Include="Managers\ServerManager.cs" />
+    <Compile Include="Models\AccountModels.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.Config" />
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Entities\Account.hbm.xml" />
+    <EmbeddedResource Include="Entities\AccountCommunity.hbm.xml" />
+    <EmbeddedResource Include="Entities\AccountLevel.hbm.xml" />
+    <EmbeddedResource Include="Entities\AccountProfile.hbm.xml" />
+    <EmbeddedResource Include="Entities\AccountState.hbm.xml" />
+    <EmbeddedResource Include="Entities\AccountTrace.hbm.xml" />
+    <EmbeddedResource Include="Entities\Server.hbm.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Edden.core\Edden.core.csproj">
+      <Project>{B2F0D41E-51FA-42F0-B3E6-EB327567FB2F}</Project>
+      <Name>Edden.core</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

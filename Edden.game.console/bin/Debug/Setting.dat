@@ -1,0 +1,33 @@
+%YAML 1.2
+---
+!Edden.game.GameSetting
+Main: 
+  Password: jiva
+  EnableMultiAccount: True
+  Name: Jiva
+  Id: 1
+  EnableHeroic: False
+  SaveTime: 1728000
+  Host: 127.0.0.1
+  MaxPlayers: 2000
+  Port: 5555
+Character: 
+  Kamas: 0
+  Limit: 5
+  Level: 1
+Rate: 
+  Honor: 1
+  Kamas: 1
+  Job: 1
+  All: 1
+  Drop: 1
+  Xp: 1
+Authenticate: 
+  Host: 127.0.0.1
+  Port: 544
+Database: 
+  Username: root
+  Password: ""
+  Name: edden
+  Host: 127.0.0.1
+...

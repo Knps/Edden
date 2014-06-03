@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema xmlns="http://schemas.microsoft.com/ado/2009/11/edm" xmlns:cg="http://schemas.microsoft.com/ado/2006/04/codegeneration" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" Namespace="EddenModel" Alias="Self" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" annotation:UseStrongSpatialTypes="false">
+  <EntityContainer Name="EddenModelContainer" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Accounts" EntityType="EddenModel.Account" />
+    <EntitySet Name="AccountLevels" EntityType="EddenModel.AccountLevel" />
+    <EntitySet Name="AccountCommunities" EntityType="EddenModel.AccountCommunity" />
+    <AssociationSet Name="AccountAccountCommunity" Association="EddenModel.AccountAccountCommunity">
+      <End Role="Account" EntitySet="Accounts" />
+      <End Role="AccountCommunity" EntitySet="AccountCommunities" />
+    </AssociationSet>
+    <AssociationSet Name="AccountAccountLevel" Association="EddenModel.AccountAccountLevel">
+      <End Role="Account" EntitySet="Accounts" />
+      <End Role="AccountLevel" EntitySet="AccountLevels" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="Account">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Username" Type="String" Nullable="false" />
+    <Property Name="Password" Type="String" Nullable="false" />
+    <NavigationProperty Name="Community" Relationship="EddenModel.AccountAccountCommunity" FromRole="Account" ToRole="AccountCommunity" />
+    <NavigationProperty Name="Level" Relationship="EddenModel.AccountAccountLevel" FromRole="Account" ToRole="AccountLevel" />
+    <Property Name="Salt" Type="String" Nullable="false" />
+  </EntityType>
+  <EntityType Name="AccountLevel">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Identity" Type="Int32" Nullable="false" />
+    <Property Name="Name" Type="String" Nullable="false" />
+    <NavigationProperty Name="Account" Relationship="EddenModel.AccountAccountLevel" FromRole="AccountLevel" ToRole="Account" />
+  </EntityType>
+  <EntityType Name="AccountCommunity">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Identity" Type="Int32" Nullable="false" />
+    <Property Name="Name" Type="String" Nullable="false" />
+    <NavigationProperty Name="Account" Relationship="EddenModel.AccountAccountCommunity" FromRole="AccountCommunity" ToRole="Account" />
+  </EntityType>
+  <Association Name="AccountAccountCommunity">
+    <End Type="EddenModel.Account" Role="Account" Multiplicity="*" />
+    <End Type="EddenModel.AccountCommunity" Role="AccountCommunity" Multiplicity="1" />
+  </Association>
+  <Association Name="AccountAccountLevel">
+    <End Type="EddenModel.Account" Role="Account" Multiplicity="*" />
+    <End Type="EddenModel.AccountLevel" Role="AccountLevel" Multiplicity="1" />
+  </Association>
+</Schema>

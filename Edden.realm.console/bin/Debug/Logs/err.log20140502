@@ -1,0 +1,112 @@
+﻿2014-05-02 16:57:12,069 [8700] ERROR GameServer-199777 - Edden.realm.Network.Game.GameClient
+System.NullReferenceException: La référence d'objet n'est pas définie à une instance d'un objet.
+   à Edden.core.Network.MessageManager.GetMessage(String id) dans c:\Users\Snaps\Dropbox\Project\Edden\Edden.core\Network\MessageManager.cs:ligne 36
+   à Edden.core.Network.MessageManager.Process(Packet packet, Byte[] data, Boolean sended) dans c:\Users\Snaps\Dropbox\Project\Edden\Edden.core\Network\MessageManager.cs:ligne 63
+   à Edden.core.Network.MessageManager.Parse(Byte[] data, Boolean sended) dans c:\Users\Snaps\Dropbox\Project\Edden\Edden.core\Network\MessageManager.cs:ligne 45
+   à Edden.realm.Network.Game.GameClient.Manage(String packet) dans c:\Users\Snaps\Dropbox\Project\Edden\Edden.Realm\Network\Game\GameClient.cs:ligne 53
+   à Edden.realm.Network.Game.GameManager.Server_NewRequestReceived(GameClient session, StringRequestInfo requestInfo) dans c:\Users\Snaps\Dropbox\Project\Edden\Edden.Realm\Network\Game\GameManager.cs:ligne 36
+   à SuperSocket.SocketBase.AppServerBase`2.ExecuteCommand(TAppSession session, TRequestInfo requestInfo) dans d:\Publish\supersocket-692164f5acddf46e46f01b75ba0d3a25138b2c01\SocketBase\AppServerBase.cs:ligne 1298
+2014-05-02 16:57:46,026 [8996] ERROR GameServer-199777 - System.NotImplementedException: La méthode ou l'opération n'est pas implémentée.
+
+Server stack trace: 
+   à Edden.realm.Network.Game.GameManager.Server_SessionClosed(GameClient session, CloseReason value) dans c:\Users\Snaps\Dropbox\Project\Edden\Edden.Realm\Network\Game\GameManager.cs:ligne 30
+   à System.Runtime.Remoting.Messaging.StackBuilderSink._PrivateProcessMessage(IntPtr md, Object[] args, Object server, Object[]& outArgs)
+   à System.Runtime.Remoting.Messaging.StackBuilderSink.AsyncProcessMessage(IMessage msg, IMessageSink replySink)
+
+Exception rethrown at [0]: 
+   à System.Runtime.Remoting.Proxies.RealProxy.EndInvokeHelper(Message reqMsg, Boolean bProxyCase)
+   à System.Runtime.Remoting.Proxies.RemotingProxy.Invoke(Object NotUsed, MessageData& msgData)
+   à SuperSocket.SocketBase.SessionHandler`2.EndInvoke(IAsyncResult result)
+   à SuperSocket.SocketBase.AppServerBase`2.OnSessionClosedCallback(IAsyncResult result) dans d:\Publish\supersocket-692164f5acddf46e46f01b75ba0d3a25138b2c01\SocketBase\AppServerBase.cs:ligne 1515
+2014-05-02 16:57:53,963 [8996] ERROR GameServer-199777 - Edden.realm.Network.Game.GameClient
+System.NullReferenceException: La référence d'objet n'est pas définie à une instance d'un objet.
+   à Edden.core.Network.MessageManager.GetMessage(String id) dans c:\Users\Snaps\Dropbox\Project\Edden\Edden.core\Network\MessageManager.cs:ligne 36
+   à Edden.core.Network.MessageManager.Process(Packet packet, Byte[] data, Boolean sended) dans c:\Users\Snaps\Dropbox\Project\Edden\Edden.core\Network\MessageManager.cs:ligne 63
+   à Edden.core.Network.MessageManager.Parse(Byte[] data, Boolean sended) dans c:\Users\Snaps\Dropbox\Project\Edden\Edden.core\Network\MessageManager.cs:ligne 45
+   à Edden.realm.Network.Game.GameClient.Manage(String packet) dans c:\Users\Snaps\Dropbox\Project\Edden\Edden.Realm\Network\Game\GameClient.cs:ligne 53
+   à Edden.realm.Network.Game.GameManager.Server_NewRequestReceived(GameClient session, StringRequestInfo requestInfo) dans c:\Users\Snaps\Dropbox\Project\Edden\Edden.Realm\Network\Game\GameManager.cs:ligne 36
+   à SuperSocket.SocketBase.AppServerBase`2.ExecuteCommand(TAppSession session, TRequestInfo requestInfo) dans d:\Publish\supersocket-692164f5acddf46e46f01b75ba0d3a25138b2c01\SocketBase\AppServerBase.cs:ligne 1298
+2014-05-02 16:57:59,308 [8700] ERROR GameServer-199777 - System.NotImplementedException: La méthode ou l'opération n'est pas implémentée.
+
+Server stack trace: 
+   à Edden.realm.Network.Game.GameManager.Server_SessionClosed(GameClient session, CloseReason value) dans c:\Users\Snaps\Dropbox\Project\Edden\Edden.Realm\Network\Game\GameManager.cs:ligne 30
+   à System.Runtime.Remoting.Messaging.StackBuilderSink._PrivateProcessMessage(IntPtr md, Object[] args, Object server, Object[]& outArgs)
+   à System.Runtime.Remoting.Messaging.StackBuilderSink.AsyncProcessMessage(IMessage msg, IMessageSink replySink)
+
+Exception rethrown at [0]: 
+   à System.Runtime.Remoting.Proxies.RealProxy.EndInvokeHelper(Message reqMsg, Boolean bProxyCase)
+   à System.Runtime.Remoting.Proxies.RemotingProxy.Invoke(Object NotUsed, MessageData& msgData)
+   à SuperSocket.SocketBase.SessionHandler`2.EndInvoke(IAsyncResult result)
+   à SuperSocket.SocketBase.AppServerBase`2.OnSessionClosedCallback(IAsyncResult result) dans d:\Publish\supersocket-692164f5acddf46e46f01b75ba0d3a25138b2c01\SocketBase\AppServerBase.cs:ligne 1515
+2014-05-02 16:58:24,200 [8996] ERROR GameServer-199777 - Edden.realm.Network.Game.GameClient
+System.NullReferenceException: La référence d'objet n'est pas définie à une instance d'un objet.
+   à Edden.core.Network.MessageManager.GetMessage(String id) dans c:\Users\Snaps\Dropbox\Project\Edden\Edden.core\Network\MessageManager.cs:ligne 36
+   à Edden.core.Network.MessageManager.Process(Packet packet, Byte[] data, Boolean sended) dans c:\Users\Snaps\Dropbox\Project\Edden\Edden.core\Network\MessageManager.cs:ligne 63
+   à Edden.core.Network.MessageManager.Parse(Byte[] data, Boolean sended) dans c:\Users\Snaps\Dropbox\Project\Edden\Edden.core\Network\MessageManager.cs:ligne 45
+   à Edden.realm.Network.Game.GameClient.Manage(String packet) dans c:\Users\Snaps\Dropbox\Project\Edden\Edden.Realm\Network\Game\GameClient.cs:ligne 53
+   à Edden.realm.Network.Game.GameManager.Server_NewRequestReceived(GameClient session, StringRequestInfo requestInfo) dans c:\Users\Snaps\Dropbox\Project\Edden\Edden.Realm\Network\Game\GameManager.cs:ligne 36
+   à SuperSocket.SocketBase.AppServerBase`2.ExecuteCommand(TAppSession session, TRequestInfo requestInfo) dans d:\Publish\supersocket-692164f5acddf46e46f01b75ba0d3a25138b2c01\SocketBase\AppServerBase.cs:ligne 1298
+2014-05-02 16:58:36,158 [8700] ERROR GameServer-199777 - System.NotImplementedException: La méthode ou l'opération n'est pas implémentée.
+
+Server stack trace: 
+   à Edden.realm.Network.Game.GameManager.Server_SessionClosed(GameClient session, CloseReason value) dans c:\Users\Snaps\Dropbox\Project\Edden\Edden.Realm\Network\Game\GameManager.cs:ligne 30
+   à System.Runtime.Remoting.Messaging.StackBuilderSink._PrivateProcessMessage(IntPtr md, Object[] args, Object server, Object[]& outArgs)
+   à System.Runtime.Remoting.Messaging.StackBuilderSink.AsyncProcessMessage(IMessage msg, IMessageSink replySink)
+
+Exception rethrown at [0]: 
+   à System.Runtime.Remoting.Proxies.RealProxy.EndInvokeHelper(Message reqMsg, Boolean bProxyCase)
+   à System.Runtime.Remoting.Proxies.RemotingProxy.Invoke(Object NotUsed, MessageData& msgData)
+   à SuperSocket.SocketBase.SessionHandler`2.EndInvoke(IAsyncResult result)
+   à SuperSocket.SocketBase.AppServerBase`2.OnSessionClosedCallback(IAsyncResult result) dans d:\Publish\supersocket-692164f5acddf46e46f01b75ba0d3a25138b2c01\SocketBase\AppServerBase.cs:ligne 1515
+2014-05-02 16:58:40,138 [8700] ERROR GameServer-199777 - Edden.realm.Network.Game.GameClient
+System.NullReferenceException: La référence d'objet n'est pas définie à une instance d'un objet.
+   à Edden.core.Network.MessageManager.GetMessage(String id) dans c:\Users\Snaps\Dropbox\Project\Edden\Edden.core\Network\MessageManager.cs:ligne 36
+   à Edden.core.Network.MessageManager.Process(Packet packet, Byte[] data, Boolean sended) dans c:\Users\Snaps\Dropbox\Project\Edden\Edden.core\Network\MessageManager.cs:ligne 63
+   à Edden.core.Network.MessageManager.Parse(Byte[] data, Boolean sended) dans c:\Users\Snaps\Dropbox\Project\Edden\Edden.core\Network\MessageManager.cs:ligne 45
+   à Edden.realm.Network.Game.GameClient.Manage(String packet) dans c:\Users\Snaps\Dropbox\Project\Edden\Edden.Realm\Network\Game\GameClient.cs:ligne 53
+   à Edden.realm.Network.Game.GameManager.Server_NewRequestReceived(GameClient session, StringRequestInfo requestInfo) dans c:\Users\Snaps\Dropbox\Project\Edden\Edden.Realm\Network\Game\GameManager.cs:ligne 36
+   à SuperSocket.SocketBase.AppServerBase`2.ExecuteCommand(TAppSession session, TRequestInfo requestInfo) dans d:\Publish\supersocket-692164f5acddf46e46f01b75ba0d3a25138b2c01\SocketBase\AppServerBase.cs:ligne 1298
+2014-05-02 16:59:10,097 [8996] ERROR GameServer-199777 - System.NotImplementedException: La méthode ou l'opération n'est pas implémentée.
+
+Server stack trace: 
+   à Edden.realm.Network.Game.GameManager.Server_SessionClosed(GameClient session, CloseReason value) dans c:\Users\Snaps\Dropbox\Project\Edden\Edden.Realm\Network\Game\GameManager.cs:ligne 30
+   à System.Runtime.Remoting.Messaging.StackBuilderSink._PrivateProcessMessage(IntPtr md, Object[] args, Object server, Object[]& outArgs)
+   à System.Runtime.Remoting.Messaging.StackBuilderSink.AsyncProcessMessage(IMessage msg, IMessageSink replySink)
+
+Exception rethrown at [0]: 
+   à System.Runtime.Remoting.Proxies.RealProxy.EndInvokeHelper(Message reqMsg, Boolean bProxyCase)
+   à System.Runtime.Remoting.Proxies.RemotingProxy.Invoke(Object NotUsed, MessageData& msgData)
+   à SuperSocket.SocketBase.SessionHandler`2.EndInvoke(IAsyncResult result)
+   à SuperSocket.SocketBase.AppServerBase`2.OnSessionClosedCallback(IAsyncResult result) dans d:\Publish\supersocket-692164f5acddf46e46f01b75ba0d3a25138b2c01\SocketBase\AppServerBase.cs:ligne 1515
+2014-05-02 16:59:18,365 [8996] ERROR GameServer-199777 - Edden.realm.Network.Game.GameClient
+System.NullReferenceException: La référence d'objet n'est pas définie à une instance d'un objet.
+   à Edden.core.Network.MessageManager.GetMessage(String id) dans c:\Users\Snaps\Dropbox\Project\Edden\Edden.core\Network\MessageManager.cs:ligne 36
+   à Edden.core.Network.MessageManager.Process(Packet packet, Byte[] data, Boolean sended) dans c:\Users\Snaps\Dropbox\Project\Edden\Edden.core\Network\MessageManager.cs:ligne 63
+   à Edden.core.Network.MessageManager.Parse(Byte[] data, Boolean sended) dans c:\Users\Snaps\Dropbox\Project\Edden\Edden.core\Network\MessageManager.cs:ligne 45
+   à Edden.realm.Network.Game.GameClient.Manage(String packet) dans c:\Users\Snaps\Dropbox\Project\Edden\Edden.Realm\Network\Game\GameClient.cs:ligne 53
+   à Edden.realm.Network.Game.GameManager.Server_NewRequestReceived(GameClient session, StringRequestInfo requestInfo) dans c:\Users\Snaps\Dropbox\Project\Edden\Edden.Realm\Network\Game\GameManager.cs:ligne 36
+   à SuperSocket.SocketBase.AppServerBase`2.ExecuteCommand(TAppSession session, TRequestInfo requestInfo) dans d:\Publish\supersocket-692164f5acddf46e46f01b75ba0d3a25138b2c01\SocketBase\AppServerBase.cs:ligne 1298
+2014-05-02 17:00:30,798 [9336] ERROR GameServer-54284939 - Edden.realm.Network.Game.GameClient
+System.NullReferenceException: La référence d'objet n'est pas définie à une instance d'un objet.
+   à Edden.core.Network.MessageManager.GetMessage(String id) dans c:\Users\Snaps\Dropbox\Project\Edden\Edden.core\Network\MessageManager.cs:ligne 36
+   à Edden.core.Network.MessageManager.Process(Packet packet, Byte[] data, Boolean sended) dans c:\Users\Snaps\Dropbox\Project\Edden\Edden.core\Network\MessageManager.cs:ligne 63
+   à Edden.core.Network.MessageManager.Parse(Byte[] data, Boolean sended) dans c:\Users\Snaps\Dropbox\Project\Edden\Edden.core\Network\MessageManager.cs:ligne 45
+   à Edden.realm.Network.Game.GameClient.Manage(String packet) dans c:\Users\Snaps\Dropbox\Project\Edden\Edden.Realm\Network\Game\GameClient.cs:ligne 53
+   à Edden.realm.Network.Game.GameManager.Server_NewRequestReceived(GameClient session, StringRequestInfo requestInfo) dans c:\Users\Snaps\Dropbox\Project\Edden\Edden.Realm\Network\Game\GameManager.cs:ligne 35
+   à SuperSocket.SocketBase.AppServerBase`2.ExecuteCommand(TAppSession session, TRequestInfo requestInfo) dans d:\Publish\supersocket-692164f5acddf46e46f01b75ba0d3a25138b2c01\SocketBase\AppServerBase.cs:ligne 1298
+2014-05-02 17:04:55,593 [2108] ERROR GameServer-54284939 - Edden.realm.Network.Game.GameClient
+System.NullReferenceException: La référence d'objet n'est pas définie à une instance d'un objet.
+   à Edden.core.Network.MessageManager.GetMessage(String id) dans c:\Users\Snaps\Dropbox\Project\Edden\Edden.core\Network\MessageManager.cs:ligne 36
+   à Edden.core.Network.MessageManager.Process(Packet packet, Byte[] data, Boolean sended) dans c:\Users\Snaps\Dropbox\Project\Edden\Edden.core\Network\MessageManager.cs:ligne 62
+   à Edden.core.Network.MessageManager.Parse(Byte[] data, Boolean sended) dans c:\Users\Snaps\Dropbox\Project\Edden\Edden.core\Network\MessageManager.cs:ligne 44
+   à Edden.realm.Network.Game.GameClient.Manage(String packet) dans c:\Users\Snaps\Dropbox\Project\Edden\Edden.Realm\Network\Game\GameClient.cs:ligne 53
+   à Edden.realm.Network.Game.GameManager.Server_NewRequestReceived(GameClient session, StringRequestInfo requestInfo) dans c:\Users\Snaps\Dropbox\Project\Edden\Edden.Realm\Network\Game\GameManager.cs:ligne 35
+   à SuperSocket.SocketBase.AppServerBase`2.ExecuteCommand(TAppSession session, TRequestInfo requestInfo) dans d:\Publish\supersocket-692164f5acddf46e46f01b75ba0d3a25138b2c01\SocketBase\AppServerBase.cs:ligne 1298
+2014-05-02 17:06:28,280 [6140] ERROR GameServer-54284939 - Edden.realm.Network.Game.GameClient
+System.NullReferenceException: La référence d'objet n'est pas définie à une instance d'un objet.
+   à Edden.core.Network.MessageManager.GetMessage(String id) dans c:\Users\Snaps\Dropbox\Project\Edden\Edden.core\Network\MessageManager.cs:ligne 36
+   à Edden.core.Network.MessageManager.Process(Packet packet, Byte[] data, Boolean sended) dans c:\Users\Snaps\Dropbox\Project\Edden\Edden.core\Network\MessageManager.cs:ligne 62
+   à Edden.core.Network.MessageManager.Parse(Byte[] data, Boolean sended) dans c:\Users\Snaps\Dropbox\Project\Edden\Edden.core\Network\MessageManager.cs:ligne 44
+   à Edden.realm.Network.Game.GameClient.Manage(String packet) dans c:\Users\Snaps\Dropbox\Project\Edden\Edden.Realm\Network\Game\GameClient.cs:ligne 53
+   à Edden.realm.Network.Game.GameManager.Server_NewRequestReceived(GameClient session, StringRequestInfo requestInfo) dans c:\Users\Snaps\Dropbox\Project\Edden\Edden.Realm\Network\Game\GameManager.cs:ligne 35
+   à SuperSocket.SocketBase.AppServerBase`2.ExecuteCommand(TAppSession session, TRequestInfo requestInfo) dans d:\Publish\supersocket-692164f5acddf46e46f01b75ba0d3a25138b2c01\SocketBase\AppServerBase.cs:ligne 1298

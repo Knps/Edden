@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2"
+
+namespace="Edden.data.access.layout.Entities" assembly="Edden.data.access.layout">
+
+  <class name="ServerEntity" table="servers">
+
+    <id name="Id" column="id" unsaved-value="0">
+
+      <generator class="native" />
+
+    </id>
+
+    <property name="Identity" column="identity"/>
+    <property name="Password" column="password"/>
+    <property name="Salt" column="salt"/>
+
+  </class>
+
+</hibernate-mapping>

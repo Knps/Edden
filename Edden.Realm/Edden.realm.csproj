@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{6599DB2B-2310-42FA-B492-60CE46A2CE4C}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Edden.realm</RootNamespace>
+    <AssemblyName>Edden.realm</AssemblyName>
+    <TargetFrameworkVersion>v4.5.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="KnpsToolkit, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\KnpsToolkit\KnpsToolkit\bin\Debug\KnpsToolkit.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=6.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\Newtonsoft.Json.6.0.1\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Network\Player\Handlers\QueueHandler.cs" />
+    <Compile Include="Models\Event\ServerMessageEvent.cs" />
+    <Compile Include="Models\GameClientModels.cs" />
+    <Compile Include="Models\PlayerClientModels.cs" />
+    <Compile Include="Network\Game\GameClient.cs" />
+    <Compile Include="Network\Game\GameManager.cs" />
+    <Compile Include="Network\Game\GameServer.cs" />
+    <Compile Include="Network\Game\Message\Connection\HelloConnectMessageGame.cs" />
+    <Compile Include="Network\Game\Message\MessageManagerGame.cs" />
+    <Compile Include="Network\Player\Message\Account\AuthenticateAccountPlayerMessage.cs" />
+    <Compile Include="Network\Player\Message\Account\QueueAccountPlayerMessage.cs" />
+    <Compile Include="Network\Player\Message\Account\VersionAccountPlayerMessage.cs" />
+    <Compile Include="Network\Player\Message\MessageManagerPlayer.cs" />
+    <Compile Include="Network\Player\PlayerClient.cs" />
+    <Compile Include="Network\Player\PlayerManager.cs" />
+    <Compile Include="Network\Player\PlayerServer.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RealmCore.cs" />
+    <Compile Include="Models\Config\MainModelSetting.cs" />
+    <Compile Include="Models\Config\PortModelSetting.cs" />
+    <Compile Include="RealmSetting.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Edden.core\Edden.core.csproj">
+      <Project>{b2f0d41e-51fa-42f0-b3e6-eb327567fb2f}</Project>
+      <Name>Edden.core</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Edden.data.access.layout\Edden.data.access.layout.csproj">
+      <Project>{1F62C479-D321-4432-87E4-30CF94F87FE8}</Project>
+      <Name>Edden.data.access.layout</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

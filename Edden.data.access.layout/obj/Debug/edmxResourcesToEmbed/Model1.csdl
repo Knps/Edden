@@ -1,0 +1,167 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="eddenModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="accountcommunities">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Identity" Type="Int32" Nullable="false" />
+    <Property Name="Name" Type="String" MaxLength="1073741823" FixedLength="false" Unicode="false" Nullable="false" />
+    <NavigationProperty Name="accounts" Relationship="Self.FK_AccountAccountCommunity" FromRole="accountcommunities" ToRole="accounts" />
+  </EntityType>
+  <EntityType Name="accountlevels">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Identity" Type="Int32" Nullable="false" />
+    <Property Name="Name" Type="String" MaxLength="1073741823" FixedLength="false" Unicode="false" Nullable="false" />
+    <NavigationProperty Name="accounts" Relationship="Self.FK_AccountAccountLevel" FromRole="accountlevels" ToRole="accounts" />
+  </EntityType>
+  <EntityType Name="accountprofiles">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Pseudo" Type="String" MaxLength="1073741823" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="SecretAnswer" Type="String" MaxLength="1073741823" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="SecretQuestion" Type="String" MaxLength="1073741823" FixedLength="false" Unicode="false" Nullable="false" />
+    <NavigationProperty Name="accounts" Relationship="Self.FK_AccountAccountProfile" FromRole="accountprofiles" ToRole="accounts" />
+  </EntityType>
+  <EntityType Name="accounts">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Username" Type="String" MaxLength="1073741823" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Password" Type="String" MaxLength="1073741823" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Salt" Type="String" MaxLength="1073741823" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Community_Id" Type="Int32" Nullable="false" />
+    <Property Name="Level_Id" Type="Int32" Nullable="false" />
+    <Property Name="Profile_Id" Type="Int32" Nullable="false" />
+    <Property Name="State_Id" Type="Int32" Nullable="false" />
+    <Property Name="Trace_Id" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="accountcommunities" Relationship="Self.FK_AccountAccountCommunity" FromRole="accounts" ToRole="accountcommunities" />
+    <NavigationProperty Name="accountlevels" Relationship="Self.FK_AccountAccountLevel" FromRole="accounts" ToRole="accountlevels" />
+    <NavigationProperty Name="accountprofiles" Relationship="Self.FK_AccountAccountProfile" FromRole="accounts" ToRole="accountprofiles" />
+    <NavigationProperty Name="accountstates" Relationship="Self.FK_AccountAccountState" FromRole="accounts" ToRole="accountstates" />
+    <NavigationProperty Name="accounttraces" Relationship="Self.FK_AccountAccountTrace" FromRole="accounts" ToRole="accounttraces" />
+  </EntityType>
+  <EntityType Name="accountstates">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="BannedAt" Type="DateTime" Nullable="false" />
+    <Property Name="SubscribedAt" Type="DateTime" Nullable="false" />
+    <Property Name="Identity" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="accounts" Relationship="Self.FK_AccountAccountState" FromRole="accountstates" ToRole="accounts" />
+  </EntityType>
+  <EntityType Name="accounttraces">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="LastConnectionDate" Type="DateTime" Nullable="false" />
+    <Property Name="LastConnectionHost" Type="String" MaxLength="1073741823" FixedLength="false" Unicode="false" Nullable="false" />
+    <NavigationProperty Name="accounts" Relationship="Self.FK_AccountAccountTrace" FromRole="accounttraces" ToRole="accounts" />
+  </EntityType>
+  <EntityType Name="servers">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Identity" Type="Int32" Nullable="false" />
+    <Property Name="Password" Type="String" MaxLength="1073741823" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Salt" Type="String" MaxLength="1073741823" FixedLength="false" Unicode="false" Nullable="false" />
+  </EntityType>
+  <Association Name="FK_AccountAccountCommunity">
+    <End Role="accountcommunities" Type="Self.accountcommunities" Multiplicity="1" />
+    <End Role="accounts" Type="Self.accounts" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="accountcommunities">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="accounts">
+        <PropertyRef Name="Community_Id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_AccountAccountLevel">
+    <End Role="accountlevels" Type="Self.accountlevels" Multiplicity="1" />
+    <End Role="accounts" Type="Self.accounts" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="accountlevels">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="accounts">
+        <PropertyRef Name="Level_Id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_AccountAccountProfile">
+    <End Role="accountprofiles" Type="Self.accountprofiles" Multiplicity="1" />
+    <End Role="accounts" Type="Self.accounts" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="accountprofiles">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="accounts">
+        <PropertyRef Name="Profile_Id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_AccountAccountState">
+    <End Role="accountstates" Type="Self.accountstates" Multiplicity="1" />
+    <End Role="accounts" Type="Self.accounts" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="accountstates">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="accounts">
+        <PropertyRef Name="State_Id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_AccountAccountTrace">
+    <End Role="accounttraces" Type="Self.accounttraces" Multiplicity="1" />
+    <End Role="accounts" Type="Self.accounts" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="accounttraces">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="accounts">
+        <PropertyRef Name="Trace_Id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="eddenEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="accountcommunities" EntityType="Self.accountcommunities" />
+    <EntitySet Name="accountlevels" EntityType="Self.accountlevels" />
+    <EntitySet Name="accountprofiles" EntityType="Self.accountprofiles" />
+    <EntitySet Name="accounts" EntityType="Self.accounts" />
+    <EntitySet Name="accountstates" EntityType="Self.accountstates" />
+    <EntitySet Name="accounttraces" EntityType="Self.accounttraces" />
+    <EntitySet Name="servers" EntityType="Self.servers" />
+    <AssociationSet Name="FK_AccountAccountCommunity" Association="Self.FK_AccountAccountCommunity">
+      <End Role="accountcommunities" EntitySet="accountcommunities" />
+      <End Role="accounts" EntitySet="accounts" />
+    </AssociationSet>
+    <AssociationSet Name="FK_AccountAccountLevel" Association="Self.FK_AccountAccountLevel">
+      <End Role="accountlevels" EntitySet="accountlevels" />
+      <End Role="accounts" EntitySet="accounts" />
+    </AssociationSet>
+    <AssociationSet Name="FK_AccountAccountProfile" Association="Self.FK_AccountAccountProfile">
+      <End Role="accountprofiles" EntitySet="accountprofiles" />
+      <End Role="accounts" EntitySet="accounts" />
+    </AssociationSet>
+    <AssociationSet Name="FK_AccountAccountState" Association="Self.FK_AccountAccountState">
+      <End Role="accountstates" EntitySet="accountstates" />
+      <End Role="accounts" EntitySet="accounts" />
+    </AssociationSet>
+    <AssociationSet Name="FK_AccountAccountTrace" Association="Self.FK_AccountAccountTrace">
+      <End Role="accounttraces" EntitySet="accounttraces" />
+      <End Role="accounts" EntitySet="accounts" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>
