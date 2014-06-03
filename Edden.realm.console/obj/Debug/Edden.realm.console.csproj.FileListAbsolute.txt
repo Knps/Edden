@@ -43,3 +43,32 @@ C:\Users\Snaps\Dropbox\Project\Edden\Edden.realm.console\bin\Debug\NHibernate.pd
 C:\Users\Snaps\Dropbox\Project\Edden\Edden.realm.console\bin\Debug\NHibernate.xml
 C:\Users\Snaps\Dropbox\Project\Edden\Edden.realm.console\bin\Debug\Iesi.Collections.pdb
 C:\Users\Snaps\Dropbox\Project\Edden\Edden.realm.console\bin\Debug\Iesi.Collections.xml
+C:\Users\Snaps\Desktop\Edden Project\Source\Edden.realm.console\bin\Debug\Realm.exe.config
+C:\Users\Snaps\Desktop\Edden Project\Source\Edden.realm.console\bin\Debug\Realm.exe
+C:\Users\Snaps\Desktop\Edden Project\Source\Edden.realm.console\bin\Debug\Realm.pdb
+C:\Users\Snaps\Desktop\Edden Project\Source\Edden.realm.console\bin\Debug\Edden.core.dll
+C:\Users\Snaps\Desktop\Edden Project\Source\Edden.realm.console\bin\Debug\Edden.data.access.layout.dll
+C:\Users\Snaps\Desktop\Edden Project\Source\Edden.realm.console\bin\Debug\Edden.realm.dll
+C:\Users\Snaps\Desktop\Edden Project\Source\Edden.realm.console\bin\Debug\KnpsToolkit.dll
+C:\Users\Snaps\Desktop\Edden Project\Source\Edden.realm.console\bin\Debug\NHibernate.dll
+C:\Users\Snaps\Desktop\Edden Project\Source\Edden.realm.console\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Snaps\Desktop\Edden Project\Source\Edden.realm.console\bin\Debug\YamlSerializer.dll
+C:\Users\Snaps\Desktop\Edden Project\Source\Edden.realm.console\bin\Debug\Iesi.Collections.dll
+C:\Users\Snaps\Desktop\Edden Project\Source\Edden.realm.console\bin\Debug\Edden.core.pdb
+C:\Users\Snaps\Desktop\Edden Project\Source\Edden.realm.console\bin\Debug\Edden.data.access.layout.pdb
+C:\Users\Snaps\Desktop\Edden Project\Source\Edden.realm.console\bin\Debug\Edden.realm.pdb
+C:\Users\Snaps\Desktop\Edden Project\Source\Edden.realm.console\bin\Debug\SuperSocket.Common.pdb
+C:\Users\Snaps\Desktop\Edden Project\Source\Edden.realm.console\bin\Debug\SuperSocket.Common.xml
+C:\Users\Snaps\Desktop\Edden Project\Source\Edden.realm.console\bin\Debug\SuperSocket.SocketBase.pdb
+C:\Users\Snaps\Desktop\Edden Project\Source\Edden.realm.console\bin\Debug\SuperSocket.SocketBase.xml
+C:\Users\Snaps\Desktop\Edden Project\Source\Edden.realm.console\bin\Debug\SuperSocket.SocketEngine.pdb
+C:\Users\Snaps\Desktop\Edden Project\Source\Edden.realm.console\bin\Debug\SuperSocket.SocketEngine.xml
+C:\Users\Snaps\Desktop\Edden Project\Source\Edden.realm.console\bin\Debug\KnpsToolkit.pdb
+C:\Users\Snaps\Desktop\Edden Project\Source\Edden.realm.console\bin\Debug\NHibernate.pdb
+C:\Users\Snaps\Desktop\Edden Project\Source\Edden.realm.console\bin\Debug\NHibernate.xml
+C:\Users\Snaps\Desktop\Edden Project\Source\Edden.realm.console\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Snaps\Desktop\Edden Project\Source\Edden.realm.console\bin\Debug\Iesi.Collections.pdb
+C:\Users\Snaps\Desktop\Edden Project\Source\Edden.realm.console\bin\Debug\Iesi.Collections.xml
+C:\Users\Snaps\Desktop\Edden Project\Source\Edden.realm.console\obj\Debug\Edden.realm.console.csprojResolveAssemblyReference.cache
+C:\Users\Snaps\Desktop\Edden Project\Source\Edden.realm.console\obj\Debug\Realm.exe
+C:\Users\Snaps\Desktop\Edden Project\Source\Edden.realm.console\obj\Debug\Realm.pdb

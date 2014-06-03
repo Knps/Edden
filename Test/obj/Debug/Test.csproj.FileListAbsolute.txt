@@ -19,3 +19,23 @@ C:\Users\Snaps\Dropbox\Project\Edden\Test\bin\Debug\NHibernate.pdb
 C:\Users\Snaps\Dropbox\Project\Edden\Test\bin\Debug\NHibernate.xml
 C:\Users\Snaps\Dropbox\Project\Edden\Test\bin\Debug\Iesi.Collections.pdb
 C:\Users\Snaps\Dropbox\Project\Edden\Test\bin\Debug\Iesi.Collections.xml
+C:\Users\Snaps\Desktop\Edden Project\Source\Test\bin\Debug\Test.exe.config
+C:\Users\Snaps\Desktop\Edden Project\Source\Test\bin\Debug\Test.exe
+C:\Users\Snaps\Desktop\Edden Project\Source\Test\bin\Debug\Test.pdb
+C:\Users\Snaps\Desktop\Edden Project\Source\Test\bin\Debug\Edden.core.dll
+C:\Users\Snaps\Desktop\Edden Project\Source\Test\bin\Debug\Edden.data.access.layout.dll
+C:\Users\Snaps\Desktop\Edden Project\Source\Test\bin\Debug\NHibernate.dll
+C:\Users\Snaps\Desktop\Edden Project\Source\Test\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Snaps\Desktop\Edden Project\Source\Test\bin\Debug\YamlSerializer.dll
+C:\Users\Snaps\Desktop\Edden Project\Source\Test\bin\Debug\Iesi.Collections.dll
+C:\Users\Snaps\Desktop\Edden Project\Source\Test\bin\Debug\Edden.core.pdb
+C:\Users\Snaps\Desktop\Edden Project\Source\Test\bin\Debug\Edden.data.access.layout.pdb
+C:\Users\Snaps\Desktop\Edden Project\Source\Test\bin\Debug\KnpsToolkit.pdb
+C:\Users\Snaps\Desktop\Edden Project\Source\Test\bin\Debug\NHibernate.pdb
+C:\Users\Snaps\Desktop\Edden Project\Source\Test\bin\Debug\NHibernate.xml
+C:\Users\Snaps\Desktop\Edden Project\Source\Test\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Snaps\Desktop\Edden Project\Source\Test\bin\Debug\Iesi.Collections.pdb
+C:\Users\Snaps\Desktop\Edden Project\Source\Test\bin\Debug\Iesi.Collections.xml
+C:\Users\Snaps\Desktop\Edden Project\Source\Test\obj\Debug\Test.csprojResolveAssemblyReference.cache
+C:\Users\Snaps\Desktop\Edden Project\Source\Test\obj\Debug\Test.exe
+C:\Users\Snaps\Desktop\Edden Project\Source\Test\obj\Debug\Test.pdb

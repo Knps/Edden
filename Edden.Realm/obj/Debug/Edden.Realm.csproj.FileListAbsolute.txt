@@ -30,3 +30,22 @@ C:\Users\Snaps\Dropbox\Project\Edden\Edden.Realm\bin\Debug\NHibernate.pdb
 C:\Users\Snaps\Dropbox\Project\Edden\Edden.Realm\bin\Debug\NHibernate.xml
 C:\Users\Snaps\Dropbox\Project\Edden\Edden.Realm\bin\Debug\Iesi.Collections.pdb
 C:\Users\Snaps\Dropbox\Project\Edden\Edden.Realm\bin\Debug\Iesi.Collections.xml
+C:\Users\Snaps\Desktop\Edden Project\Source\Edden.Realm\bin\Debug\Edden.realm.dll
+C:\Users\Snaps\Desktop\Edden Project\Source\Edden.Realm\bin\Debug\Edden.realm.pdb
+C:\Users\Snaps\Desktop\Edden Project\Source\Edden.Realm\bin\Debug\Edden.core.dll
+C:\Users\Snaps\Desktop\Edden Project\Source\Edden.Realm\bin\Debug\Edden.data.access.layout.dll
+C:\Users\Snaps\Desktop\Edden Project\Source\Edden.Realm\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Snaps\Desktop\Edden Project\Source\Edden.Realm\bin\Debug\NHibernate.dll
+C:\Users\Snaps\Desktop\Edden Project\Source\Edden.Realm\bin\Debug\YamlSerializer.dll
+C:\Users\Snaps\Desktop\Edden Project\Source\Edden.Realm\bin\Debug\Iesi.Collections.dll
+C:\Users\Snaps\Desktop\Edden Project\Source\Edden.Realm\bin\Debug\Edden.core.pdb
+C:\Users\Snaps\Desktop\Edden Project\Source\Edden.Realm\bin\Debug\Edden.data.access.layout.pdb
+C:\Users\Snaps\Desktop\Edden Project\Source\Edden.Realm\bin\Debug\KnpsToolkit.pdb
+C:\Users\Snaps\Desktop\Edden Project\Source\Edden.Realm\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Snaps\Desktop\Edden Project\Source\Edden.Realm\bin\Debug\NHibernate.pdb
+C:\Users\Snaps\Desktop\Edden Project\Source\Edden.Realm\bin\Debug\NHibernate.xml
+C:\Users\Snaps\Desktop\Edden Project\Source\Edden.Realm\bin\Debug\Iesi.Collections.pdb
+C:\Users\Snaps\Desktop\Edden Project\Source\Edden.Realm\bin\Debug\Iesi.Collections.xml
+C:\Users\Snaps\Desktop\Edden Project\Source\Edden.Realm\obj\Debug\Edden.realm.csprojResolveAssemblyReference.cache
+C:\Users\Snaps\Desktop\Edden Project\Source\Edden.Realm\obj\Debug\Edden.realm.dll
+C:\Users\Snaps\Desktop\Edden Project\Source\Edden.Realm\obj\Debug\Edden.realm.pdb

@@ -37,3 +37,26 @@ C:\Users\Snaps\Dropbox\Project\Edden\Edden.game.console\bin\Debug\NHibernate.pdb
 C:\Users\Snaps\Dropbox\Project\Edden\Edden.game.console\bin\Debug\NHibernate.xml
 C:\Users\Snaps\Dropbox\Project\Edden\Edden.game.console\bin\Debug\Iesi.Collections.pdb
 C:\Users\Snaps\Dropbox\Project\Edden\Edden.game.console\bin\Debug\Iesi.Collections.xml
+C:\Users\Snaps\Desktop\Edden Project\Source\Edden.game.console\bin\Debug\Game.exe.config
+C:\Users\Snaps\Desktop\Edden Project\Source\Edden.game.console\bin\Debug\Game.exe
+C:\Users\Snaps\Desktop\Edden Project\Source\Edden.game.console\bin\Debug\Game.pdb
+C:\Users\Snaps\Desktop\Edden Project\Source\Edden.game.console\bin\Debug\Edden.core.dll
+C:\Users\Snaps\Desktop\Edden Project\Source\Edden.game.console\bin\Debug\Edden.data.access.layout.dll
+C:\Users\Snaps\Desktop\Edden Project\Source\Edden.game.console\bin\Debug\Edden.game.dll
+C:\Users\Snaps\Desktop\Edden Project\Source\Edden.game.console\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Snaps\Desktop\Edden Project\Source\Edden.game.console\bin\Debug\KnpsToolkit.dll
+C:\Users\Snaps\Desktop\Edden Project\Source\Edden.game.console\bin\Debug\NHibernate.dll
+C:\Users\Snaps\Desktop\Edden Project\Source\Edden.game.console\bin\Debug\YamlSerializer.dll
+C:\Users\Snaps\Desktop\Edden Project\Source\Edden.game.console\bin\Debug\Iesi.Collections.dll
+C:\Users\Snaps\Desktop\Edden Project\Source\Edden.game.console\bin\Debug\Edden.core.pdb
+C:\Users\Snaps\Desktop\Edden Project\Source\Edden.game.console\bin\Debug\Edden.data.access.layout.pdb
+C:\Users\Snaps\Desktop\Edden Project\Source\Edden.game.console\bin\Debug\Edden.game.pdb
+C:\Users\Snaps\Desktop\Edden Project\Source\Edden.game.console\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Snaps\Desktop\Edden Project\Source\Edden.game.console\bin\Debug\KnpsToolkit.pdb
+C:\Users\Snaps\Desktop\Edden Project\Source\Edden.game.console\bin\Debug\NHibernate.pdb
+C:\Users\Snaps\Desktop\Edden Project\Source\Edden.game.console\bin\Debug\NHibernate.xml
+C:\Users\Snaps\Desktop\Edden Project\Source\Edden.game.console\bin\Debug\Iesi.Collections.pdb
+C:\Users\Snaps\Desktop\Edden Project\Source\Edden.game.console\bin\Debug\Iesi.Collections.xml
+C:\Users\Snaps\Desktop\Edden Project\Source\Edden.game.console\obj\Debug\Edden.game.console.csprojResolveAssemblyReference.cache
+C:\Users\Snaps\Desktop\Edden Project\Source\Edden.game.console\obj\Debug\Game.exe
+C:\Users\Snaps\Desktop\Edden Project\Source\Edden.game.console\obj\Debug\Game.pdb

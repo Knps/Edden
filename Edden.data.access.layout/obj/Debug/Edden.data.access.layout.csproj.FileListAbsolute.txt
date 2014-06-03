@@ -17,3 +17,21 @@ C:\Users\Snaps\Dropbox\Project\Edden\Edden.data.access.layout\bin\Debug\NHiberna
 C:\Users\Snaps\Dropbox\Project\Edden\Edden.data.access.layout\bin\Debug\NHibernate.xml
 C:\Users\Snaps\Dropbox\Project\Edden\Edden.data.access.layout\bin\Debug\Edden.core.dll
 C:\Users\Snaps\Dropbox\Project\Edden\Edden.data.access.layout\bin\Debug\Edden.core.pdb
+C:\Users\Snaps\Desktop\Edden Project\Source\Edden.data.access.layout\bin\Debug\Edden.data.access.layout.dll.config
+C:\Users\Snaps\Desktop\Edden Project\Source\Edden.data.access.layout\bin\Debug\Edden.data.access.layout.dll
+C:\Users\Snaps\Desktop\Edden Project\Source\Edden.data.access.layout\bin\Debug\Edden.data.access.layout.pdb
+C:\Users\Snaps\Desktop\Edden Project\Source\Edden.data.access.layout\bin\Debug\Edden.core.dll
+C:\Users\Snaps\Desktop\Edden Project\Source\Edden.data.access.layout\bin\Debug\Iesi.Collections.dll
+C:\Users\Snaps\Desktop\Edden Project\Source\Edden.data.access.layout\bin\Debug\NHibernate.dll
+C:\Users\Snaps\Desktop\Edden Project\Source\Edden.data.access.layout\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Snaps\Desktop\Edden Project\Source\Edden.data.access.layout\bin\Debug\YamlSerializer.dll
+C:\Users\Snaps\Desktop\Edden Project\Source\Edden.data.access.layout\bin\Debug\Edden.core.pdb
+C:\Users\Snaps\Desktop\Edden Project\Source\Edden.data.access.layout\bin\Debug\Iesi.Collections.pdb
+C:\Users\Snaps\Desktop\Edden Project\Source\Edden.data.access.layout\bin\Debug\Iesi.Collections.xml
+C:\Users\Snaps\Desktop\Edden Project\Source\Edden.data.access.layout\bin\Debug\KnpsToolkit.pdb
+C:\Users\Snaps\Desktop\Edden Project\Source\Edden.data.access.layout\bin\Debug\NHibernate.pdb
+C:\Users\Snaps\Desktop\Edden Project\Source\Edden.data.access.layout\bin\Debug\NHibernate.xml
+C:\Users\Snaps\Desktop\Edden Project\Source\Edden.data.access.layout\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Snaps\Desktop\Edden Project\Source\Edden.data.access.layout\obj\Debug\Edden.data.access.layout.csprojResolveAssemblyReference.cache
+C:\Users\Snaps\Desktop\Edden Project\Source\Edden.data.access.layout\obj\Debug\Edden.data.access.layout.dll
+C:\Users\Snaps\Desktop\Edden Project\Source\Edden.data.access.layout\obj\Debug\Edden.data.access.layout.pdb

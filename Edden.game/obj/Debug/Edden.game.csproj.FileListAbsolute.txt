@@ -30,3 +30,22 @@ C:\Users\Snaps\Dropbox\Project\Edden\Edden.game\bin\Debug\NHibernate.pdb
 C:\Users\Snaps\Dropbox\Project\Edden\Edden.game\bin\Debug\NHibernate.xml
 C:\Users\Snaps\Dropbox\Project\Edden\Edden.game\bin\Debug\Iesi.Collections.pdb
 C:\Users\Snaps\Dropbox\Project\Edden\Edden.game\bin\Debug\Iesi.Collections.xml
+C:\Users\Snaps\Desktop\Edden Project\Source\Edden.game\bin\Debug\Edden.game.dll
+C:\Users\Snaps\Desktop\Edden Project\Source\Edden.game\bin\Debug\Edden.game.pdb
+C:\Users\Snaps\Desktop\Edden Project\Source\Edden.game\bin\Debug\Edden.core.dll
+C:\Users\Snaps\Desktop\Edden Project\Source\Edden.game\bin\Debug\Edden.data.access.layout.dll
+C:\Users\Snaps\Desktop\Edden Project\Source\Edden.game\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Snaps\Desktop\Edden Project\Source\Edden.game\bin\Debug\NHibernate.dll
+C:\Users\Snaps\Desktop\Edden Project\Source\Edden.game\bin\Debug\YamlSerializer.dll
+C:\Users\Snaps\Desktop\Edden Project\Source\Edden.game\bin\Debug\Iesi.Collections.dll
+C:\Users\Snaps\Desktop\Edden Project\Source\Edden.game\bin\Debug\Edden.core.pdb
+C:\Users\Snaps\Desktop\Edden Project\Source\Edden.game\bin\Debug\Edden.data.access.layout.pdb
+C:\Users\Snaps\Desktop\Edden Project\Source\Edden.game\bin\Debug\KnpsToolkit.pdb
+C:\Users\Snaps\Desktop\Edden Project\Source\Edden.game\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Snaps\Desktop\Edden Project\Source\Edden.game\bin\Debug\NHibernate.pdb
+C:\Users\Snaps\Desktop\Edden Project\Source\Edden.game\bin\Debug\NHibernate.xml
+C:\Users\Snaps\Desktop\Edden Project\Source\Edden.game\bin\Debug\Iesi.Collections.pdb
+C:\Users\Snaps\Desktop\Edden Project\Source\Edden.game\bin\Debug\Iesi.Collections.xml
+C:\Users\Snaps\Desktop\Edden Project\Source\Edden.game\obj\Debug\Edden.game.csprojResolveAssemblyReference.cache
+C:\Users\Snaps\Desktop\Edden Project\Source\Edden.game\obj\Debug\Edden.game.dll
+C:\Users\Snaps\Desktop\Edden Project\Source\Edden.game\obj\Debug\Edden.game.pdb
